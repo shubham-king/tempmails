@@ -86,7 +86,7 @@ def help_command(update: Update, _: CallbackContext) -> None:
 
 def main() -> None:
     # Create the Updater and pass it your bot's token.
-    updater = Updater("1812744346:AAELqV1JQoOIPFIkCWs3ci4f4uP4Ox_NqjM") #API Token here
+    updater = Updater("1958178561:AAHJ8X6TpBzjn-v4tMtOFhFfMZHfSxXavfk") #API Token here
 
     updater.dispatcher.add_handler(CommandHandler('start', start))
     #updater.dispatcher.add_handler(CallbackQueryHandler(button))
