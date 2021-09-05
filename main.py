@@ -21,7 +21,7 @@ def start(update: Update, _: CallbackContext) -> None:
     user = update.message.from_user
     print(user)
     update.message.reply_text((f'Hello\U0001F44B <b>{user.first_name}</b>, \nWelcome to Temp-e-mail\U0001F916. I can help you by generating login details for websites you dont want to share data with'
-                               '\n\nI can generate <b>Name, Temporary valid email & Password.</b>'),parse_mode=ParseMode.HTML) 
+                               '\n\nI can generate <b>Name, Temporary valid email & Password.</b> \n Made with Love by @RobotTech_official'),parse_mode=ParseMode.HTML) 
     keyboard = [
         [
             KeyboardButton("Name"),
